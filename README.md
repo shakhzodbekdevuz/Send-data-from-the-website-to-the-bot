@@ -2,13 +2,13 @@
 Send data from the website to the  bot. Javascript
 
 ![Image Link](https://github.com/shakhzodbekdevuz/Send-data-from-the-website-to-the-bot/blob/main/bot.png)
-# Built With
+## Built With
 ---
 * Html
 * Css
 * Javascript
 ---
-# Live Demo
+## Live Demo
 ---
 * ## [Demo](https://nasaftechno-group.netlify.app/)
 ---
@@ -17,7 +17,7 @@ Send data from the website to the  bot. Javascript
 * ## [GitHub: ShahzodDev](https://github.com/shakhzodbekdevuz)
 ---
 
-# Show your support
+## Show your support
 Give a ⭐️ if you like this project!
 
 ## 🤝 Contributing
