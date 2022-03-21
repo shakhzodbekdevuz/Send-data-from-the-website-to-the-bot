@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="author" name="Shahzodbek">
+    <link rel = "icon" href ="./photo_2021-08-26_07-13-58.jpg" type = "image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+
+    <title>Nasaf Techno Group Contact Web Site</title>
+</head>
+<body>
+  
+      <div class="loader_bg">
+         <div class="loader"></div>
+      </div>
+   
+<div class="contact-wrap">
+			<div class="contact-in">
+				<h1>Contact</h1>
+				<h2><i class="fa fa-phone" aria-hidden="true"></i> Telefon</h2>
+				<p>+99891 468 67 77</p>
+				<h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+				<p>nasafilmmaskani@gmail.com</p>
+				<h2><i class="fa fa-map-marker" aria-hidden="true"></i> Manzil</h2>
+				<p>Qarshi shahar , I.Karimov ko'chasi 47-uy</p>
+				<ul>
+					<li><a href="https://www.facebook.com/nasafilmmaskani"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="http://t.me/nasaf_ilm_maskani"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+					<li><a href="http://shahzodshanbiyev@gmail.com"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/nasafilm_maskani/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="contact-in">
+				<h1>Nasaf Techno Group</h1>
+				<form action="" onsubmit=" return sender()">
+					<input type="text" placeholder="Ism, Familiya" class="contact-in-input" name="name" id="name" required>
+					<input name="phone" type="tel" id="phone" onkeypress='return event.charCode >= 48 && event.charCode <= 57' id="phone"  placeholder="Telefon nomer +998(00)000-00-00" required class="contact-in-input">
+					<input type="username" name="username" id="email" placeholder="Telegram username" required class="contact-in-input">
+					<textarea  name="message" id="message" placeholder="Savol yuborish"  class="contact-in-textarea"></textarea>
+					<input type="submit" value="Yuborish" id="btn"class="contact-in-btn">
+				</form>
+			</div>
+      <div class="contact-in">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1509.6895974997888!2d65.7935723479036!3d38.835810403203595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4ea89b027c26d9%3A0xcbead287fe9ab507!2s%22Nasaf%20Ilm%20Maskani%22!5e0!3m2!1suz!2s!4v1641998096286!5m2!1suz!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+			</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+    <script src="./sender.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script>
+    $(function () {
+      $('input[type="tel"]').mask('+998(00)000-00-00');
+    });
+  </script>
+  
+</body>
+</html>
