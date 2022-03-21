@@ -1,7 +1,7 @@
 # Send-data-from-the-website-to-the-bot
 Send data from the website to the  bot. Javascript
 
-![Image Link](https://github.com/shakhzodbekdevuz/Send-data-from-the-website-to-the-bot/bot.png)
+![Image Link](https://github.com/shakhzodbekdevuz/Send-data-from-the-website-to-the-bot/blob/main/bot.png)
 # Built With
 ---
 * Html
